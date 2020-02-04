@@ -1,3 +1,5 @@
+
+
 .info {
     display: flex;
     justify-content: space-around;
@@ -61,31 +63,19 @@ nav a:hover {
     color: black;
 }
 
-/*.display {
-    display:flexbox;
-    justify-content:flex-start;
-}*/
+
 .container {
     position:relative;
     text-align:center;
     color:white;
     text-shadow: 2px 2px 4px #000000;
 }
-/*h1 {
-    position:absolute;
-    top:25%;
-    left:50%;
-    transform:translate(-50%, -50%);
-}*/
-/*h1 {
-    text-shadow: -1px -1px 1px;
-    
-}*/
 .bottom {
     position:absolute;
     top:25%;
     left:50%;
     transform:translate(-50%,-50%);
+    size:.25em;
 
 }
 footer {
@@ -96,4 +86,7 @@ footer {
 h4 {
     margin-top: -12px;
     margin-bottom: -3px;
+}
+#prac {
+    background-image: url ("https://bestfishingdude.com/wp-content/uploads/2019/10/best-ice-fishing-rods-768x432.jpg");
 }
