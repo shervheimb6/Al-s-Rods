@@ -1,0 +1,99 @@
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 60, 60);
+    color: white;
+    align-items: flex-end;
+}
+.name {
+    font-size:36px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    text   
+}
+.product {
+    size: 20px;
+}
+.button{
+    margin: auto 0;
+}
+
+.shipping {
+    display: flex;
+    justify-content:center;
+    background-color: rgb(32, 117, 245);
+    color:white;
+    font-size:20px;
+}
+a {
+    color:white;
+}
+.logo {
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right:auto;
+    width:145px;
+    height:145px;    
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgb(155, 151, 151);
+    position: static;
+    top: 75px;
+    width: 100%;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/*.display {
+    display:flexbox;
+    justify-content:flex-start;
+}*/
+.container {
+    position:relative;
+    text-align:center;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+/*h1 {
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}*/
+/*h1 {
+    text-shadow: -1px -1px 1px;
+    
+}*/
+.bottom {
+    position:absolute;
+    top:25%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+footer {
+    background-color: rgb(186, 194, 194);
+    padding-left: 6%;
+    border-radius: 25px;
+}
+h4 {
+    margin-top: -12px;
+    margin-bottom: -3px;
+}
