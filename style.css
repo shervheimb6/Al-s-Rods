@@ -90,3 +90,12 @@ h4 {
 #prac {
     background-image: url ("https://bestfishingdude.com/wp-content/uploads/2019/10/best-ice-fishing-rods-768x432.jpg");
 }
+img {
+    width: auto;
+}
+
+@media only screen and {
+    .container {
+        width:125px;
+    } 
+}
