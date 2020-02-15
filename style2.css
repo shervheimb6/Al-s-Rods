@@ -1,0 +1,83 @@
+.options {
+    color: red;
+    background-color: black;
+}
+
+/*header section*/
+
+.shipping {
+    display: flex;
+    justify-content:center;
+    background-color: rgb(32, 117, 245);
+    color:white;
+    font-size:20px;
+}
+a {
+    color:white;
+}
+.logo {
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right:auto;
+    width:145px;
+    height:145px;    
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 60, 60);
+    color: white;
+    align-items: flex-end;
+}
+.name {
+    font-size:36px;
+    margin-top: 0px;
+    margin-bottom: -20px;      
+}
+.product {
+    font-size: 20px;
+}
+
+/*end of header section*/
+
+.table {
+    background-color: burlywood;
+    width: 100%;
+    font-family: arial, sans-serif;
+    
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  nav {
+    overflow: hidden;
+    background-color: rgb(155, 151, 151);
+    position: static;
+    top: 75px;
+    width: 100%;
+}
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+footer {
+    background-color: rgb(186, 194, 194);
+    padding-left: 6%;
+}
+

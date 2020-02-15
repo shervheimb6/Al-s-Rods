@@ -1,0 +1,39 @@
+form {
+    width: 300px;
+}
+input {
+    width:100%;
+}
+
+textarea {
+  resize: vertical /*or both*/; 
+  max-height:275px; 
+}
+input, textarea {
+    outline-style: ;
+    outline:none;
+    outline-width: 0vm;
+    border: 2px solid blueviolet;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(255,0,0,0.85);
+    border: 2px solid blueviolet;
+}
+
+::placeholder {
+    color:red;
+    opacity:1;
+   
+}
+
+:-ms-input-placeholder {
+    color:red;
+    
+   
+}
+::-ms-input-placeholder {
+    color:red;
+    opacity:1;
+   
+}
