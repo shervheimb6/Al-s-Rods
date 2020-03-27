@@ -10,7 +10,7 @@ textarea {
   max-height:275px; 
 }
 input, textarea {
-    outline-style: ;
+    outline-style: bold ;
     outline:none;
     outline-width: 0vm;
     border: 2px solid blueviolet;

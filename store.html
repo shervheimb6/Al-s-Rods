@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Purchase</title>
-    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="store.css">
 </head>
 <body>
     
@@ -32,8 +32,8 @@
         <nav>
             <a href="C:\Projects\AlsRods\index.html">Home</a>
             <a href="mailto:shervheimb6@gmail.com">Contact</a>
-            <a href="C:\Projects\About Page\index.html">About Page</a>
-            <a href= "C:\Projects\Store Page\index.html">Store</a>
+            <a href="C:\Projects\About Page\about.html">About Page</a>
+            <a href= "C:\Projects\purchaseform\index.html">Purchase</a>
         </nav>
     
     <main>
@@ -48,24 +48,38 @@
                 <tr>
                     <td>Black</td>
                     <td>$95.00</td>
-                    <td><input type="button" value="Purchase"></td>
+                    <td><input type="button" value="Purchase with Paypal"></td>
                 </tr>
                 <tr>
                     <td>Yellow</td>
                     <td>$105.00</td>
-                    <td><input type="button" value="Purchase"></td>
+                    <td><input type="button" value="Purchase with Paypal"></td>
                 </tr>
                 <tr>
                     <td>Blue</td>
                     <td>$115.00
                     </td>
-                    <td><a href=""><input type="button" value="Purchase"></a> </td>
+                    <td><a href=""><input type="button" value="Purchase with Paypal"></a> </td>
                 </tr>
                     <td>Custom ID tag</td>
                     <td>$125.00</td>
-                    <td><a href=""><input type="button" value="Purchase"></a> </td>
+                    <td><a href=""><input type="button" value="Purchase with Paypal"></a> </td>
                 </tr>
             </table>
+            <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+<script>paypal.Buttons().render('body');</script>
+            <div class="grid" id="combinations">
+              <form class="grids">
+                <label for="lunch">What color eyelet bands do you want</label>
+                <select id="lunch" name="lunch">
+                  <option value="pizza">Black</option>
+                  <option value="curry">Yellow</option>
+                  <option value="salad">Blue</option>
+                </select>
+              </form>
+              <img class="grids" src="" >
+              
+             </div> 
     </main>
     <section name="googlelocation">
         <h3>Al's Rods Headquarters</h3>
@@ -86,7 +100,7 @@
       <div id="sponsor">Sites Inc.</div>
     </footer>
 
-    <!--testing api below-->
+
     
 
     
