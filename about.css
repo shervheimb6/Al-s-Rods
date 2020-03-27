@@ -1,0 +1,111 @@
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(63, 60, 60);
+    color: white;
+    align-items: flex-end;
+}
+.name {
+    font-size:36px;
+    margin-top: 0px;
+    margin-bottom: -20px;      
+}
+.product {
+    font-size: 20px;
+}
+.button{
+    margin: auto 0;
+}
+.shipping {
+    display: flex;
+    justify-content:center;
+    background-color: rgb(32, 117, 245);
+    color:white;
+    font-size:20px;
+}
+a {
+    color:white;
+}
+.logo {
+    display:block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right:auto;
+    width:145px;
+    height:145px;    
+}
+nav {
+    overflow: hidden;
+    background-color: rgb(155, 151, 151);
+    position: static;
+    top: 75px;
+    width: 100%;
+}
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+.container {
+    position:relative;
+    text-align:center;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+.bottom {
+    position:absolute;
+    top:1%;
+    left: 0;
+    right: 0;
+    size:.25em;
+
+}
+footer {
+    background-color: rgb(63, 60, 60);
+    padding-left: 6%;
+}
+h4 {
+    margin-top: -12px;
+    margin-bottom: -3px;
+}
+
+.mainpic {
+    width: 100%;
+    min-height:235px;
+}
+
+main {
+    background-image: url("https://cdn.shopify.com/s/files/1/0089/9216/1897/articles/sag_riv_2_1200x1200.jpg?v=1571623235");
+     
+}
+
+h1 {
+    text-align: center;
+    font-weight:bold;
+}
+article {
+    font-weight:bold;
+    letter-spacing: .1em;
+    color: rgb(20, 6, 6);
+    font-size: 16px;
+}
+
+article {
+    margin-left: 13%;
+    margin-right:13%;
+}
+/*
+@media only screen and {
+    .container {
+        width:125px;
+    }720p-px is a mobile screen*/
