@@ -15,6 +15,7 @@
 }
 .button{
     margin: auto 0;
+    color: black;
 }
 .shipping {
     display: flex;
